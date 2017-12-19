@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: auto;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-areas: "img img img img" "img img img img";
+}
+
+.wrapper>img {
+    width: 300px;
+    border: 1px solid black;
+}
