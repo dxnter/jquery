@@ -1,0 +1,35 @@
+body {
+	width: 1000px;
+	margin: 0 auto;
+	font-family: sans-serif;
+	background-color: #F7F4EA;
+}
+button {
+	background-color: #80A1D4;
+	color: white;
+	padding: 5px 30px;
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+}
+input {
+	padding: 5px 20px;
+}
+div {
+	width: 700px;
+	margin: 15px auto;
+	text-align: center;
+	padding: 15px;
+	border: 5px solid #DED9E2;
+	background-color: #C0B9DD;
+	border-radius: 10px;
+}
+.slidedown {
+	display: none;
+}
+.fadein {
+	display: none;
+}
+.red {
+	color: red;
+}
