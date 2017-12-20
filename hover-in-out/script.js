@@ -11,4 +11,3 @@ $(document).ready(function () {
             new Image().src = $(this).data('alt-src');
         }).hover(sourceSwap, sourceSwap);
     });
-});
